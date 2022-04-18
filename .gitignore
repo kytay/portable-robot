@@ -1,0 +1,15 @@
+
+# Remove developer convenient script, based off run_tests.bat 
+./run_tests_with_env.bat
+
+# Exclude all binary drivers
+./utils/*.exe
+
+# Exclude embedded python3 runtime
+./python3
+
+# Exclude all logs generated
+./logs
+
+# Exclude all IDE meta
+./.idea
